@@ -7,7 +7,11 @@ int main()
   int a,b,c;
   double f;
   char i;
-  cout<<"请输入要进行的运算，目前可以进行+，-，*，/四种运算\n"<<endl;
+   cout<<"请输入要进行的运算，目前可以进行+，-，*，/四种运算\n"<<endl;
+  while (1)
+  {
+  
+ 
   cin>>a>>i>>b;
   j.getxy(a,b);
   if (i=='+')
@@ -30,5 +34,8 @@ int main()
     f=j.chu();
 	cout<<f<<endl;
   }
+  
+  }
+  
 return 0;
 }
